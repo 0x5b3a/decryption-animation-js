@@ -85,7 +85,7 @@ main{
     justify-content: center;
     align-items: center;
 
-    font-family: "Space Mono";
+    font-family: "Space Mono",monospace;
     font-size: 6svw;
     font-weight: 600;
 }
