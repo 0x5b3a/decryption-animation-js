@@ -23,6 +23,7 @@ function randomNumber(length) {
 //defines interval
 let interval = null
 let letterSpeed = 50
+
 // main function
 function hackerEffect() {
     clearInterval(interval)
