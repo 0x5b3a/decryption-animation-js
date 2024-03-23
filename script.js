@@ -23,6 +23,7 @@ function randomNumber(length) {
 //defines interval
 let interval = null
 let letterSpeed = 50
+let iteratorController = 1/10
 
 // main function
 function hackerEffect() {
@@ -44,7 +45,7 @@ function hackerEffect() {
             if (iterator === dataSet.value.length) {
                 clearInterval(interval)
             }
-            iterator += 1/2
+            iterator += iteratorController
         }, letterSpeed);
 }
 
@@ -80,7 +81,7 @@ let timeOut = setTimeout(function script() {
 
     // default speed and actual speed
     let defaultDelay = 2000;
-    let speed = letterSpeed * words.length * dataSet.value.length + defaultDelay;
+    let speed = letterSpeed * words.length * dataSet.value.length + defaultDelay + ((1 / iteratorController) * dataSet.value.length * letterSpeed);
 
 
   // increase value of index gradually

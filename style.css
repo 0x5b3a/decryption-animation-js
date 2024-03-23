@@ -74,7 +74,7 @@ footer{
 .text{
     border-radius: 2svw;
     
-    background: hsla(150, 50%, 10%,0.5);
+    background: hsla(150, 50%, 10%,0.9);
     color: hsl(157, 100%, 50%) ;
 
     width: 80%;
